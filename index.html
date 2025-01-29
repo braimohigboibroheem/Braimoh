@@ -13,177 +13,134 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script  src="./index.js" defer></script>
 </head>
 <body>
-    <div class="header"> <nav>
-        <h2 class="logo"><span>Balogun  &#128678</span></h2>
-        
-        <ul>   
-            <li><a href="#content">Office</a> <li></li>
-            <li><a href="#about">About Me</a> <li></li>
-        <li> <a href="#service">Initiatives</a></li>
-        <li>  <a href="#service">Expertise</a> </li>
-        <li><a href="#socials">Connect</a> </li>
+
+    <nav>
+        <h2 class="logo">Braimoh-<span>Igbo</span></h2>
+        <ul>
+        <li> <a href="#home" > Home</a></li>
+        <li> <a href="#about" > About Us</a></li>
+        <li> <a href="#services" >Services</a></li>
+        <li> <a href="#projects" >Projects</a></li>
+        <li> <a href="#contact" >Contact Us</a></li>
         </ul>
-        <a href="" class="btn"> Connect</a>
-        
-        
-        
-        
-        <a href="" class="btnMs"> Click Me
-            <select name="" id="">
+        <a href="" class="btn"> Subscribe</a>
+        <a href="" class="btnMs" id="clicks"> Click Me
+            <select name="" id="trigger">
                 <option value=""></option>
-                <option value=""> <a href="#content">Office</a> </option>
-                <option value=""> <a href="#about">About Me</a> </option>
-                <option value=""> <a href="#service">Initiatives</a> </option>
-                <option value=""> <a href="#service">Expertise</a> </option>
-                <option value=""> <a href="#socials">Connect</a> </option>
+        <option value=""> <a href=""> Home</a> </option>
+        <option value=""> <a href=""> About Us</a> </option>
+        <option value=""> <a href="">Services</a> </option>
+        <option value=""> <a href="">Skills</a> </option>
+        <option value=""> <a href="">Contact Us</a> </option>
             </select>
         </a>
+        </nav>
+    <div id="home"  class="hero">
         
-        </nav></div>
+
+        <div class="content">
+           
+            <h4> Hello, my name is</h4>
+            <h1> Braimoh-Igbo <span>Ibrahim </span> </h1>
+            <h3>I am a <span>Software Engineer</span></h3>
+            <div class="newsletter">
+                <form action="">
+                    <input type="email" name="mail" placeholder="Enter Your Email ">
+                    <input type="submit" name="submit" value="Let's Start">
+                </form>
+                
+            </div>
 
 
+        </div>
+
+                    
+        <img class="heroimg" src="./images/IMG_6008.JPG" alt="">
+            </div>
 
 
-    <div class="hero">
+        <!----About section start---->
+        <section id="about" class="about">
+            <div class="main">
+                <img src="./images/IMG_5998.JPG" alt="">
+        <div class="about-text">
+            <h2>About Me</h2>
+         <h5>Software Engineer</h5>
+        <p> <b> I'm a budding software engineer with expertise in full-stack development, website development, and frontend/backend development. Proficient in a range of programming languages, frameworks, and technologies. I am passionate about creating innovative solutions, improving user experiences, and driving results. </b></p>
+      
+         <button type="button"> Let's Talk</button>
+        </div>
+            </div>
 
-<div id="content" class="content">
-    <h4>Hello, my name is</h4>
-    <h1>Toyin <span>Aremu</span> Balogun</h1>
-    <h3>I am the <span>Senior Special Assistant on Transportation </span>to the Lagos State Governor</h3>
-    <p>
-    Dedicated to shaping efficient and sustainable transportation systems, I work tirelessly to enhance mobility, reduce congestion, and promote innovation within Lagos State’s dynamic transport sector.
-    </p>
-    <div class="newsletter">
-        <form action="">
-            <input type="email" name="mail" placeholder="Enter Your Email ">
-            <input type="submit" name="submit" value="Let's Start">
-        </form>
-    </div>
-</div>
-
-<div>
-    <img class="heroimg
-    " src="images/PHOTO-2024-09-29-14-15-37.jpg" alt="">
-</div>
-    </div>
+        </section>
 
 
-
-
-
-
-
-
-
-
-
-
-<!----About section start---->
-
-<section id="about" class="about">
-    <div class="main">
-        <img src="./images/PHOTO-2024-09-29-14-15-36_1.jpg" alt="">
-<div class="about-text">
-    <h2>About Me</h2>
- <h5>Special Adviser on Transportation to the Lagos State Governor</h5>
-
-<p> <b> Hon. Toyin Aremu is a dedicated public servant and the Special Adviser on Transportation to the Lagos State Governor. With a deep commitment to improving mobility and infrastructure in one of Africa’s most dynamic cities,. </b></p>
-
-
- <button type="button"> Let's Talk</button>
-</div>
-    </div>
-</section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <div id="blog-posts"></div>
+      </section>
 
 <!----service section start---->
-
-<div id="service" class="service">
-
-<div class="title">
-<h2> Our Services</h2>
-</div>
-
-<div class="box">
-    <div class="card">
-        <i class="fas fa-road"></i>
-        <h5>Transportation Initiatives</h5>
-        <div class="pra">
-            <h6>Driving Sustainable Mobility Solutions</h6>
-            <p>
-              Implementation of policies and programs that enhance mobility, reduce congestion, and improve transportation systems.
-            </p>
-            <p style="text-align: center;">
-                <a class="button" href="#">Learn More</a>
-            </p>
-        </div>
-    </div>
-    
-    <div class="card">
-        <i class="fa-solid fa-cogs"></i>
-        <h5>Infrastructure Development</h5>
-        <h6>Building the Future of Transport</h6>
-        <div class="pra">
-            <p>
-                Designing and overseeing projects that modernize Lagos State's transport infrastructure, ensuring it is efficient, and future-ready.
-            </p>
-            <p style="text-align: center;">
-                <a class="button" href="#">Explore Projects</a>
-            </p>
-        </div>
-    </div>
         
-<div class="card">
-    <i class="far fa-bell"></i>
-    <h5>Policy Implementation</h5>
-    <div class="pra">
-        <h6>Building Systems That Drive Progress</h6>
-        <p>
-            I design and execute policies that create efficient transport systems, foster seamless mobility, and ensure sustainable urban development across Lagos State.
-        </p>
-        <p style="text-align: center;">
-            <a class="button" href="#">Learn More</a>
-        </p>
-    </div>
-      
-
         
-    </div>
+        <div id="services" class="service">
+        <div class="title">
+        <h2> Our Services</h2>
+        </div>
+        <div class="box">
+        <div class="card">
+            <i class="fas fa-bars"> </i>
+            <h5>Web Development</h5>
+            <div  class="pra">
+            <h6>Crafting Exceptional Online Experiences</h6>
+                <p>I design and develop websites that are visually stunning, fast and accessible on all devices. I deliver responsive and user-friendly websites that drive results. </p>
+                <p style="text-align: center;"> <a class="button" href="#"> Read More</a></p>
+            </div>
+        </div>
+        <div id="projects" class="card">
+            <!-- <img src="./images/users-solid.svg" alt=""> -->
+            <i class="fa-solid fa-user"></i>
+            <h5>Frontend Development </h5>
+            <h6>Building Intuitive User Interfaces</h6>
+            <div  class="pra">
+        <p>I create engaging user experiences that drive results, craft responsive and accessible interfaces that captivate audiences and elevate your brand.
+        </p>
+             
+                <p style="text-align: center;"> <a class="button" href="#"> Read More</a></p>
+            </div>
+        </div>
+        <div class="card">
+            <i class="far fa-bell"> </i>
+            <h5>Backend Development </h5>
+            <div  class="pra">
+        <h6>Powering Robust Digital Solutions</h6>
+                <p>I develop robust server-side logic, databases, and APIs. I ensure seamless data integration, secure authentication, and scalable solutions. </p>
+                <p style="text-align: center;"> <a class="button" href="#"> Read More</a></p>
+            </div>
+        </div>
+        </div>
+        </div>
 
 
-
-
-</div>
-</div>
-
-
-
-
-</div>
-
-<!-- Contact Me -->
-<div class="contact-me">
-    <p>Contribute to Shape the Future of Transportation in Lagos State</p>
-    <a class="button-two" href="">Connect with Me</a>
-</div>
-
-
-<!-- footer start -->
- <footer>
-    <p>Hon.Toyin Aremu Balogun</p>
-    <p>For collaboration on transportation initiatives and updates, kindly click the link below to connect with me:</p>
-    
-
- <div id="socials" class="socials">
-<a href="https://www.instagram.com/aremutoyinb" > <i class="fab fa-instagram"></i></a>
-<a href="https://wa.me/message/07069502170"> <i class="fab fa-whatsapp"></i></a>
-<a href="https://www.facebook.com/aremu.toyin.98"> <i class="fab fa-facebook"></i></a>
-<a href="https://www.gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
- </div>
-<p class="ipari">CopyRight By Hon.Toyin Aremu Balogun. 2024</p>
-
-
-</footer>
+        <!-- Contact Me -->
+        <div id="contact" class="contact-me">
+        <p> Let Me Get You An Exqusite And Responsive Website</p>
+        <a class="button-two" href="#">Hire Me</a>
+        </div>
+        <!-- footer start -->
+         <footer>
+         <p>Braimoh-Igbo Ibrahim</p>
+         <p>For More Project Collaboration,Kindly Click On The Link Bellow To Subscribe To My Media Channels; </p>
+         <div class="socials">
+        <a href="https://www.instagram.com/ibrahimbraimohigbo" > <i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/braimohigboibroheem"> <i class="fab fa-github"></i></a>
+        <a href="https://wa.me/message/JOWF5QCCVWOFI1"> <i class="fab fa-whatsapp"></i></a>
+        <a href="https://x.com/BraimohIgbo"> <i class="fab fa-x"></i></a>
+         </div>
+        <p class="ipari">CopyRight By Braimoh-Igbo Ibrahim 2025</p>
+        </footer>
 </body>
 </html>
